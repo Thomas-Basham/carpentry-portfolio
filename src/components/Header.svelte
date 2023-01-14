@@ -1,6 +1,4 @@
-<script>
-  import "../app.scss";
-</script>
+
 
 <a class="header-img" href="/">
   <img

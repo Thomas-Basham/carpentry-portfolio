@@ -1,10 +1,17 @@
-import adapter from '@sveltejs/adapter-auto';
-
+import adapter from "@sveltejs/adapter-auto";
+import sveltePreprocess from "svelte-preprocess";
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	kit: {
-		adapter: adapter()
-	}
+  preprocess: [
+    sveltePreprocess({
+      scss: {
+        prependData: '@use "src/variables.scss" as *;',
+      },
+    }),
+  ],
+  kit: {
+    adapter: adapter(),
+  },
 };
 
 export default config;

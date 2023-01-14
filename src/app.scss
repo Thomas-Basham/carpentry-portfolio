@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Mono:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Mono:wght@700&family=Roboto:wght@700&display=swap");
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  max-height: 100%;
+  float: left;
+  width: 100%;
+  background-image: url("/images/hammer-wallpaper.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1,
+h2 {
+  font-family: "Fira Mono", monospace;
+}
+
+nav a {
+  font-size: xx-large;
+}
+
+nav {
+  margin-top: 2%;
+  color: white;
+  a {
+    font-family: "Roboto", sans-serif !important;
+    color: white !important;
+    font-size: xx-large !important;
+    text-decoration: none !important;
+    border-bottom: 3px solid white !important;
+    border-radius: 0 !important;
+    width: 30px;
+  }
+  a:hover {
+    background-color: white !important;
+    color: black !important;
+  }
+}
+.header-img {
+  float: left;
+
+  margin: 2em 2em;
+  img {
+    width: 50px;
+  }
+}
+.welcome{
+  font-family: "Fira Mono", monospace;
+  width: 40%;
+  margin-top: 3%;
+  position: absolute;
+  left: 50%;
+
+}

@@ -1,5 +1,40 @@
+/* Import only what you need from Bootstrap */
+@import "bootstrap/scss/root";
+@import "bootstrap/scss/reboot";
+@import "bootstrap/scss/type";
+@import "bootstrap/scss/images";
+@import "bootstrap/scss/containers";
+@import "bootstrap/scss/grid";
+@import "bootstrap/scss/tables";
+@import "bootstrap/scss/forms";
+@import "bootstrap/scss/buttons";
+@import "bootstrap/scss/transitions";
+@import "bootstrap/scss/dropdown";
+@import "bootstrap/scss/button-group";
+@import "bootstrap/scss/nav";
+@import "bootstrap/scss/navbar";
+@import "bootstrap/scss/card";
+@import "bootstrap/scss/accordion";
+@import "bootstrap/scss/breadcrumb";
+@import "bootstrap/scss/pagination";
+@import "bootstrap/scss/badge";
+@import "bootstrap/scss/alert";
+@import "bootstrap/scss/progress";
+@import "bootstrap/scss/list-group";
+@import "bootstrap/scss/close";
+@import "bootstrap/scss/toasts";
+@import "bootstrap/scss/modal";
+@import "bootstrap/scss/tooltip";
+@import "bootstrap/scss/popover";
+@import "bootstrap/scss/carousel";
+@import "bootstrap/scss/spinners";
+@import "bootstrap/scss/offcanvas";
+@import "bootstrap/scss/placeholders";
+@import "bootstrap/scss/helpers";
+@import "bootstrap/scss/utilities/api";
 @import url("https://fonts.googleapis.com/css2?family=Fira+Mono:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fira+Mono:wght@700&family=Roboto:wght@700&display=swap");
+
 html {
   margin: 0;
   padding: 0;
@@ -30,19 +65,19 @@ nav a {
 
 nav {
   margin-top: 2%;
-  color: white;
+  color: var(--custom-color);
   a {
-    font-family: "Roboto", sans-serif !important;
-    color: white !important;
+    font-family: var(--custom-font-family) !important;
+    color: var(--custom-color) !important;
     font-size: xx-large !important;
     text-decoration: none !important;
-    border-bottom: 3px solid white !important;
+    border-bottom: 3px solid var(--custom-color) !important;
     border-radius: 0 !important;
     width: 30px;
   }
   a:hover {
-    background-color: white !important;
-    color: black !important;
+    background-color: var(--custom-color) !important;
+    color: var(--custom-bg-color) !important;
   }
 }
 .header-img {
@@ -53,13 +88,15 @@ nav {
     width: 50px;
   }
 }
-.welcome{
+.welcome {
   font-family: "Fira Mono", monospace;
   width: 40%;
-  margin-top: 3%;
+  margin-top: 6%;
   position: absolute;
-  left: 50%;
-
+  left: 45%;
+  h1 {
+    font-size: 400% !important;
+  }
 }
 
 .right-space {
@@ -67,9 +104,29 @@ nav {
   margin-top: 2%;
   position: absolute;
   left: 45%;
-
 }
 
-.gallery-slector{
+.gallery-slector {
   height: 200px;
 }
+.topic-div {
+  cursor: pointer;
+  box-shadow: var(--custom-box-shadow);
+  border: var(--custom-border) !important;
+  border-radius: var(--custom-border-radius);
+  p {
+    display: none;
+    color: var(--custom-bg-color);
+    font-family: var(--custom-font-family);
+  }
+}
+.topic-div:hover {
+  background-color: var(--custom-color);
+  color: var(--custom-bg-color) !important;
+  p {
+    display: block !important;
+    color: var(--custom-bg-color) !important;
+  }
+}
+
+

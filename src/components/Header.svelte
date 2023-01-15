@@ -11,8 +11,8 @@
     class="nav 
       nav-pills nav-fill"
   >
-    <a class="nav-link" href="/projects">Projects</a>
-    <a class="nav-link" href="/about">About</a>
-    <a class="nav-link" href="/contact">Contact</a>
+    <a class="nav-link mx-5" href="/projects">Projects</a>
+    <a class="nav-link mx-5" href="/about">About</a>
+    <a class="nav-link mx-5" href="/contact">Contact</a>
   </nav>
 </div>

@@ -326,112 +326,226 @@
       width: 4032,
       height: 3024,
     },
-  ]
+  ];
 
-  const images = [
+  const windowImages = [
     {
-      largeURL:
-        "https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg",
-      thumbnailURL:
-        "https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg",
-      width: 2500,
-      height: 1666,
+      largeURL: "/images/windows/IMG_1.jpeg",
+      width: 4032,
+      height: 3024,
     },
     {
-      largeURL:
-        "https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg",
-      thumbnailURL:
-        "https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg",
-      width: 2500,
-      height: 1666,
+      largeURL: "/images/windows/IMG_2.jpeg",
+      width: 4032,
+      height: 3024,
     },
     {
-      largeURL:
-        "https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg",
-      thumbnailURL:
-        "https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg",
-      width: 2500,
-      height: 1666,
+      largeURL: "/images/windows/IMG_3.jpeg",
+      width: 4032,
+      height: 3024,
     },
     {
-      largeURL:
-        "https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg",
-      thumbnailURL:
-        "https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg",
-      width: 2500,
-      height: 1666,
+      largeURL: "/images/windows/IMG_4.jpeg",
+      width: 4032,
+      height: 3024,
     },
     {
-      largeURL:
-        "https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg",
-      thumbnailURL:
-        "https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg",
-      width: 2500,
-      height: 1666,
+      largeURL: "/images/windows/IMG_5.jpeg",
+      width: 4032,
+      height: 3024,
     },
     {
-      largeURL:
-        "https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg",
-      thumbnailURL:
-        "https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg",
-      width: 2500,
-      height: 1666,
+      largeURL: "/images/windows/IMG_6.jpeg",
+      width: 3024,
+      height: 4032,
     },
     {
-      largeURL:
-        "https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg",
-      thumbnailURL:
-        "https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg",
-      width: 2500,
-      height: 1666,
+      largeURL: "/images/windows/IMG_7.jpeg",
+      width: 4032,
+      height: 3024,
     },
     {
-      largeURL:
-        "https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg",
-      thumbnailURL:
-        "https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg",
-      width: 2500,
-      height: 1666,
+      largeURL: "/images/windows/IMG_8.jpeg",
+      width: 4032,
+      height: 3024,
     },
     {
-      largeURL:
-        "https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg",
-      thumbnailURL:
-        "https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg",
-      width: 2500,
-      height: 1666,
+      largeURL: "/images/windows/IMG_9.jpeg",
+      width: 4032,
+      height: 3024,
     },
     {
-      largeURL:
-        "https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg",
-      thumbnailURL:
-        "https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg",
-      width: 2500,
-      height: 1666,
+      largeURL: "/images/windows/IMG_10.jpeg",
+      width: 4032,
+      height: 3024,
     },
     {
-      largeURL:
-        "https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg",
-      thumbnailURL:
-        "https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg",
-      width: 2500,
-      height: 1666,
+      largeURL: "/images/windows/IMG_11.jpeg",
+      width: 3024,
+      height: 4032,
     },
     {
-      largeURL:
-        "https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg",
-      thumbnailURL:
-        "https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg",
-      width: 2500,
-      height: 1666,
+      largeURL: "/images/windows/IMG_12.jpeg",
+      width: 4032,
+      height: 3024,
     },
     {
-      largeURL:
-        "https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg",
-      thumbnailURL:
-        "https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg",
-      width: 2500,
-      height: 1666,
+      largeURL: "/images/windows/IMG_13.jpeg",
+      width: 3024,
+      height: 4032,
+    },
+    {
+      largeURL: "/images/windows/IMG_14.jpeg",
+      width: 4032,
+      height: 3024,
+    },
+    {
+      largeURL: "/images/windows/IMG_15.jpeg",
+      width: 4032,
+      height: 3024,
+    },
+    {
+      largeURL: "/images/windows/IMG_16.jpeg",
+      width: 4032,
+      height: 3024,
+    },
+    {
+      largeURL: "/images/windows/IMG_17.jpeg",
+      width: 4032,
+      height: 3024,
+    },
+  ];
+
+  const miscImages = [
+    {
+      largeURL: "/images/misc/IMG_1.jpeg",
+      width: 4032,
+      height: 3024,
+    },
+    {
+      largeURL: "/images/misc/IMG_2.jpeg",
+      width: 4032,
+      height: 3024,
+    },
+    {
+      largeURL: "/images/misc/IMG_3.jpeg",
+      width: 4032,
+      height: 3024,
+    },
+    {
+      largeURL: "/images/misc/IMG_4.jpeg",
+      width: 4032,
+      height: 3024,
+    },
+    {
+      largeURL: "/images/misc/IMG_5.jpeg",
+      width: 4032,
+      height: 3024,
+    },
+    {
+      largeURL: "/images/misc/IMG_6.jpeg",
+      width: 4032,
+      height: 3024,
+    },
+    {
+      largeURL: "/images/misc/IMG_7.jpeg",
+      width: 3024,
+      height: 4032,
+    },
+    {
+      largeURL: "/images/misc/IMG_8.jpeg",
+      width: 4032,
+      height: 3024,
+    },
+    {
+      largeURL: "/images/misc/IMG_9.jpeg",
+      width: 4032,
+      height: 3024,
+    },
+    {
+      largeURL: "/images/misc/IMG_10.jpeg",
+      width: 4032,
+      height: 3024,
+    },
+    {
+      largeURL: "/images/misc/IMG_11.jpeg",
+      width: 4032,
+      height: 3024,
+    },
+    {
+      largeURL: "/images/misc/IMG_12.jpeg",
+      width: 4032,
+      height: 3024,
+    },
+    {
+      largeURL: "/images/misc/IMG_13.jpeg",
+      width: 4032,
+      height: 3024,
+    },
+    {
+      largeURL: "/images/misc/IMG_14.jpeg",
+      width: 4032,
+      height: 3024,
+    },
+    {
+      largeURL: "/images/misc/IMG_15.jpeg",
+      width: 4032,
+      height: 3024,
+    },
+    {
+      largeURL: "/images/misc/IMG_16.jpeg",
+      width: 4032,
+      height: 3024,
+    },
+    {
+      largeURL: "/images/misc/IMG_17.jpeg",
+      width: 4032,
+      height: 3024,
+    },
+    {
+      largeURL: "/images/misc/IMG_18.jpeg",
+      width: 3024,
+      height: 4032,
+    },
+    {
+      largeURL: "/images/misc/IMG_19.jpeg",
+      width: 4032,
+      height: 3024,
+    },
+    {
+      largeURL: "/images/misc/IMG_20.jpeg",
+      width: 4032,
+      height: 3024,
+    },
+    {
+      largeURL: "/images/misc/IMG_21.jpeg",
+      width: 3024,
+      height: 4032,
+    },
+    {
+      largeURL: "/images/misc/IMG_22.jpeg",
+      width: 4032,
+      height: 3024,
+    },
+    {
+      largeURL: "/images/misc/IMG_23.jpeg",
+      width: 3024,
+      height: 4032,
+    },
+    {
+      largeURL: "/images/misc/IMG_24.jpeg",
+      width: 3024,
+      height: 4032,
+    },
+    {
+      largeURL: "/images/misc/IMG_25.jpeg",
+      width: 3024,
+      height: 4032,
+    },
+    {
+      largeURL: "/images/misc/IMG_26.jpeg",
+      width: 3024,
+      height: 4032,
     },
   ];
 
@@ -458,12 +572,12 @@
     ),
     new galleryTopic(
       "windows",
-      images,
+      windowImages,
       "One of my favorite feelings in the world is transforming someone's old, outdated kitchen into a modern art masterpiece."
     ),
     new galleryTopic(
       "other",
-      images,
+      miscImages,
       "There's not many projects I won't take on. I like to try new thing's and see what happens."
     ),
   ];

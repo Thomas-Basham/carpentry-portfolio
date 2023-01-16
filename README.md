@@ -14,28 +14,16 @@
 - Javascript
 - Svelte
 - Splidejs
-- 
+- PhotoSwipe
 - Vercel
-
-## Features
-
-**Users Can:**
-
-- Play Audio samples
-- Drag and drop beat measures to a sample to create a loop
-- Stack loops to create a beat
-- Adjust loop/beat tempo
-- Record and use a new sample from microphone
-- Record loop
-- Adjust volume of each sample
 
 ## Resources
 
 [Svelte](https://svelte.dev)
 
-[Tone.js](https://tonejs.github.io)
+[PhotoSwipe](https://photoswipe.com/getting-started)
 
-[MusicTheoryWithToneJS/PlayChords.html](https://www.guitarland.com/MusicTheoryWithToneJS/PlayChords.html)
+[SplideJS](https://splidejs.com/documents)
 
 ## Developing
 

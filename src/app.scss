@@ -87,6 +87,13 @@ nav {
   img {
     width: 50px;
   }
+  svg{
+    fill: var(--custom-color);
+  }
+  svg:hover{
+    fill: var(--custom-bg-color);
+  }
+
 }
 .welcome {
   font-family: "Fira Mono", monospace;

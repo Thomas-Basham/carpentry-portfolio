@@ -1,12 +1,10 @@
 <script>
-  import { onMount } from "svelte";
   export let galleryID;
   export let images;
 
   import { Splide, SplideSlide } from "@splidejs/svelte-splide";
   // Default theme
   import "@splidejs/svelte-splide/css";
-  onMount(() => {});
 </script>
 
 {#if images.length > 1}
@@ -42,6 +40,6 @@
   </Splide>
 {:else}
   <h1 class="text-uppercase text-white mt-5">
-    Hover over a topic to view images
+    Click a topic to view images
   </h1>
 {/if}

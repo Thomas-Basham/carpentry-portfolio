@@ -128,3 +128,15 @@ nav {
     color: var(--custom-bg-color) !important;
   }
 }
+
+.card-text {
+  font-family: var(--custom-font-family) !important;
+  font-size: x-large;
+}
+.card {
+  background-color: inherit !important;
+  border: none;
+  width: fit-content;
+  margin: 0 auto;
+
+}

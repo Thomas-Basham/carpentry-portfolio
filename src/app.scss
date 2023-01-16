@@ -94,7 +94,8 @@ nav {
     fill: var(--custom-bg-color);
   }
 }
-.welcome, .about {
+.welcome,
+.about {
   font-family: "Fira Mono", monospace;
   width: 40%;
   margin-top: 6%;
@@ -146,22 +147,33 @@ nav {
   margin: 0 auto;
 }
 @media (max-width: 480px) {
-
   body {
     font-size: 40% !important;
   }
-  nav{
+  header {
+    width: 100% !important;
+    display: flex !important;
+  }
+  .header-img {
+    width: 20px;
+  }
+  .topic-div {
+    margin: 0 !important;
+    h1 {
+      font-size: 140%;
+    }
+  }
+  nav {
     width: fit-content;
     height: fit-content;
   }
-  nav a{
+  nav a {
     text-align: center;
     font-size: small !important;
     margin-inline: 0 !important;
   }
   .about {
-    h2{
-
+    h2 {
       font-family: "Fira Mono", monospace;
       font-size: 16px !important;
     }
@@ -169,7 +181,6 @@ nav {
     margin: 10% 10% 0 18%;
     position: relative;
     left: 0;
-
   }
   .right-space {
     width: 90%;
@@ -177,8 +188,8 @@ nav {
     position: relative;
     left: 0;
   }
-  .splide-image{
-    height: 400px;
+  .splide-image {
+    height: 200px;
   }
   .splide__arrow svg {
     width: 700px !important;

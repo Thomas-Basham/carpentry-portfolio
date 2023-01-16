@@ -1,4 +1,4 @@
-<div class="welcome">
+<div class="about">
   <h2>
     Welcome to my personal carpentry portfolio page! I am a passionate carpenter
     and woodworker and I am thrilled to share some of my best work with you. On

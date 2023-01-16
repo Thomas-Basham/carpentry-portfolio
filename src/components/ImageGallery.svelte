@@ -33,7 +33,7 @@
           target="_blank"
           rel="noreferrer"
         >
-          <img height="500px" class="" src={image.largeURL} alt="" />
+          <img height="500px" class="splide-image" src={image.largeURL} alt="" />
         </a>
       </SplideSlide>
     {/each}

@@ -85,17 +85,16 @@ nav {
 
   margin: 2em 2em;
   img {
-    width: 50px;
+    width: 30px;
   }
-  svg{
+  svg {
     fill: var(--custom-color);
   }
-  svg:hover{
+  svg:hover {
     fill: var(--custom-bg-color);
   }
-
 }
-.welcome {
+.welcome, .about {
   font-family: "Fira Mono", monospace;
   width: 40%;
   margin-top: 6%;
@@ -145,4 +144,43 @@ nav {
   border: none;
   width: fit-content;
   margin: 0 auto;
+}
+@media (max-width: 480px) {
+
+  body {
+    font-size: 40% !important;
+  }
+  nav{
+    width: fit-content;
+    height: fit-content;
+  }
+  nav a{
+    text-align: center;
+    font-size: small !important;
+    margin-inline: 0 !important;
+  }
+  .about {
+    h2{
+
+      font-family: "Fira Mono", monospace;
+      font-size: 16px !important;
+    }
+    width: 80%;
+    margin: 10% 10% 0 18%;
+    position: relative;
+    left: 0;
+
+  }
+  .right-space {
+    width: 90%;
+    margin: 0 auto !important;
+    position: relative;
+    left: 0;
+  }
+  .splide-image{
+    height: 400px;
+  }
+  .splide__arrow svg {
+    width: 700px !important;
+  }
 }

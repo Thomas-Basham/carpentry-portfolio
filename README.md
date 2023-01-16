@@ -1,4 +1,4 @@
-# Svelte Carpenter Portfolio
+# Svelte Carpentry Portfolio
 
 [https://construction-portfolio.vercel.app](https://construction-portfolio.vercel.app)
 

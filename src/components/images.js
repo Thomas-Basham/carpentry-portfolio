@@ -563,7 +563,7 @@ export const galleryTopics = [
   new galleryTopic(
     "windows",
     windowImages,
-    "One of my favorite feelings in the world is transforming someone's old, outdated kitchen into a modern art masterpiece."
+    "I installed high quality windows for Pella, a local window manufacturer."
   ),
   new galleryTopic(
     "other",
